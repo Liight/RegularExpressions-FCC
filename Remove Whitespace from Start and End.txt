@@ -1,0 +1,16 @@
+let hello = "   Hello, World!  ";
+let wsRegex = /^\s*\w+,\s\w+!\s*/; // Change this line
+let result = hello.replace(wsRegex, "Hello, World!"); // Change this line
+
+// line 2: string starts with white spaces followed by a word
+// string starts with a white space followed by a word followed by exclamation mark followed by white spaces
+
+Note:
+Regular Expressions: Remove Whitespace from Start and End
+Sometimes whitespace characters around strings are not wanted but are there. Typical processing of strings is to remove the whitespace at the start and end of it.
+
+
+Write a regex and use the appropriate string methods to remove whitespace at the beginning and end of strings.
+
+Note
+The .trim() method would work here, but you'll need to complete this challenge using regular expressions.
